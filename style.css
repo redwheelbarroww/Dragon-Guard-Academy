@@ -235,4 +235,6 @@ footer .socials a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+max-height: 480px;
+object-fit: cover;
 
