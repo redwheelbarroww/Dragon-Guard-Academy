@@ -4,72 +4,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dragon Guard Academy | R.E. Stormridge</title>
-  <meta name="description" content="Discover the Dragon Guard Academy series by R.E. Stormridge — a romantasy saga of fated mates, dragons, and high-stakes academy magic." />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #CED4DC;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Cormorant Garamond', serif;
+      color: #D4A838;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #CED4DC;
+    }
+
+    a {
+      color: #D4A838;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #FFD466;
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 1rem;
+      background: linear-gradient(180deg, #1A1A1A 0%, #121212 100%);
+      text-align: center;
+    }
+
+    .hero img,
+    .book-cover {
+      max-width: 320px;
+      width: 90%;
+      height: auto;
+      max-height: 480px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 24px rgba(255, 140, 0, 0.2);
+      border: 1px solid #D4A838;
+      border-radius: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #D4A838;
+      color: #121212;
+      font-weight: bold;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+      text-align: center;
+    }
+
+    .cta-button:hover {
+      background-color: #FFD466;
+      color: #000;
+      box-shadow: 0 0 12px 2px rgba(255, 212, 102, 0.6);
+    }
+
+    section {
+      padding: 4rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    section#characters,
+    section#academy {
+      background-color: #1A1A1A;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+
+    footer {
+      padding: 2rem 1rem;
+      background-color: #0D0D0D;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer .socials {
+      margin-top: 1rem;
+    }
+
+    footer .socials a {
+      margin: 0 0.75rem;
+      color: #888;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    footer .socials a:hover {
+      color: #D4A838;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
     <img src="FIRE & FURY (1).jpg" alt="Fire & Fury Book Cover">
     <h1>Dragon Guard Academy</h1>
-    <a href="https://www.amazon.com/dp/B0CXXXXXXX" class="cta-button" target="_blank">Read Now on Amazon</a>
+    <p>Enter a world of dragons, destiny, and dangerous love in this gripping romantasy series by R.E. Stormridge.</p>
+    <a href="https://www.amazon.com/dp/B0XXXXX" class="cta-button" target="_blank">Read Now on Amazon</a>
   </header>
 
-  <!-- About the Series -->
-  <section id="about">
-    <h2>Dragon Rider Romance. Magic Academy. Fated Mates.</h2>
-    <p>
-      Welcome to the Dragon Guard Academy—a hidden military magic school where elite dragon riders are trained to defend the realm.
-      If you love <strong>enemies-to-lovers romantasy</strong>, <strong>fated mates with dragon shifters</strong>, and <strong>slow burn new adult fantasy romance</strong>, this series is for you.
-    </p>
-    <p>
-      Book 1, <em>Fire & Fury</em>, follows a fiery cadet and her ice-veined commander as they fight fate, loss, and a rising darkness in the Dragonspine Mountains.
-      Book 2, <em>Storm & Steel</em>, takes the story beyond the academy walls, where storm magic brews in a royal court teetering on revolution—and two unlikely allies must forge trust before war ignites.
-    </p>
+  <section>
+    <h2>Book 1: Fire & Fury</h2>
+    <p>Ember Reese is bonded to an ancient fire dragon that defies academy rules—and sparks an enemies-to-lovers inferno with her icy commander. Together, they must face deadly trials, forbidden desire, and a war rising beyond the mountains. Can fire and ice stand together before everything burns?</p>
   </section>
 
-  <!-- Book 1 Section -->
-  <section id="fire-and-fury">
-    <h2>Fire & Fury (Book 1)</h2>
-    <img src="FIRE & FURY (1).jpg" alt="Fire & Fury Cover">
-    <p>
-      An enemies-to-lovers, fated-mates dragon rider romance set in a ruthless academy fantasy where dragons decide who lives, who loves, and who burns. Perfect for fans of <em>Fourth Wing</em>, <em>Iron Flame</em>, and slow-burn new-adult fantasy romance.
-    </p>
-    <p>
-      Nineteen-year-old Ember Reese enters the storm-lashed Dragon Guard Academy to prove herself. But when a fire dragon claims her in defiance of every rule, she must survive high-stakes trials, a chilling commander named Kai Thorne, and a prophecy older than dragonsong. As darkness breaches the fortress walls, fire and ice must unite—or everything burns.
-    </p>
-    <a href="https://www.amazon.com/dp/B0CXXXXXXX" class="cta-button" target="_blank">Read Fire & Fury</a>
+  <section>
+    <img src="1792 × 2688 (3).jpg" alt="Storm & Steel Book Cover" class="book-cover">
+    <h2>Book 2: Storm & Steel</h2>
+    <p>Storm-wielding Luna is sent to a royal court teeming with secrets, where her bond with a reluctant prince may be the only hope to stop a revolution. In a world of weaponized weather and treacherous alliances, love is the most dangerous power of all.</p>
   </section>
 
-  <!-- Book 2 Section -->
-  <section id="storm-and-steel">
-    <h2>Storm & Steel (Book 2)</h2>
-    <img src="1792 × 2688 (3).jpg" alt="Storm & Steel Cover">
-    <p>
-      An enemies-to-lovers, political intrigue dragon rider romance set in a treacherous royal court where storms can be weaponized, alliances shift like lightning, and love defies diplomacy. Perfect for fans of <em>Fourth Wing</em>, <em>Iron Flame</em>, and steamy new-adult fantasy romance.
-    </p>
-    <p>
-      Scholarship student Luna never expected to clash with Prince Darius—until storm magic and revolution put them on the same side. With political conspiracies, royal masquerades, and elemental warfare rising, Luna must decide if she can trust the prince... or if love is the most dangerous game of all.
-    </p>
-    <a href="https://www.amazon.com/dp/B0CYYYYYYY" class="cta-button" target="_blank">Read Storm & Steel</a>
-  </section>
-
-  <!-- Newsletter Signup -->
-  <section id="newsletter">
-    <h2>Join the Flight</h2>
-    <p>Sign up to get exclusive bonus scenes, early release news, and dragon-fueled extras.</p>
-    <form>
-      <input type="email" placeholder="Your email address" required />
-      <button type="submit">Subscribe</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 R.E. Stormridge | All Rights Reserved</p>
+    <p>&copy; 2025 R.E. Stormridge | Dragon Guard Academy</p>
     <div class="socials">
       <a href="#">Instagram</a>
       <a href="#">TikTok</a>
-      <a href="#">Amazon</a>
+      <a href="#">Goodreads</a>
     </div>
   </footer>
 </body>
