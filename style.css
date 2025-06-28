@@ -207,4 +207,18 @@ footer .socials a:hover {
   line-height: 1.5;
 }
 
+.book-blurb {
+  font-size: 1rem;
+  color: #CED4DC;
+  max-width: 600px;
+  margin: 1rem auto 0.5rem;
+  line-height: 1.6;
+}
+
+.book-tags {
+  font-size: 0.9rem;
+  color: #AAA;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
 
