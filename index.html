@@ -3,27 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dragon Guard Academy | Low-Cost Romantasy Beach Reads by R.E. Stormridge</title>
-  <meta name="description" content="Discover the Dragon Guard Academy series—YA dragon rider romantasy novels with neurodivergent heroines, elemental magic, and fated mates. Perfect low-cost beach reads for college students and fans of Fourth Wing and Iron Flame." />
-  <meta name="keywords" content="romantasy, dragon romance, beach reads, kindle unlimited books, ya fantasy, diverse characters, slow burn romance, fated mates, magical academy books, books like Fourth Wing, college fantasy books, books with dragons, neurodivergent heroines" />
+
+  <title>Dragon Guard Academy | Dragon Rider Romantasy Series by R.E. Stormridge</title>
+  <link rel="canonical" href="https://redwheelbarroww.github.io/Dragon-Guard-Academy/" />
+  <meta name="description" content="Read the Dragon Guard Academy series—YA romantasy books with dragons, elemental magic, fated mates, and neurodivergent heroines. Perfect for fans of Fourth Wing, Iron Flame, and Kindle Unlimited romantasy." />
+  <meta name="keywords" content="romantasy, dragon romance, dragon rider romantasy, beach reads, kindle unlimited books, ya fantasy, diverse characters, slow burn romance, fated mates, magical academy books, books like Fourth Wing, college fantasy books, books with dragons, neurodivergent heroines" />
+
   <meta property="og:title" content="Dragon Guard Academy | YA Romantasy by R.E. Stormridge" />
   <meta property="og:description" content="YA romantasy book series with magic, dragons, slow-burn romance, and diverse leads. Ideal for fans of Fourth Wing, Iron Flame, and Kindle Unlimited readers." />
   <meta property="og:image" content="https://github.com/redwheelbarroww/Dragon-Guard-Academy/blob/e8b6e62d5c7818ca85196bb9cd50822ec77d13a6/1792%20%C3%97%202688%20(9).jpg?raw=true" />
   <meta name="twitter:card" content="summary_large_image" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BookSeries",
     "name": "Dragon Guard Academy",
-    "author": {
-      "@type": "Person",
-      "name": "R.E. Stormridge"
-    },
+    "author": { "@type": "Person", "name": "R.E. Stormridge" },
     "genre": ["Romantasy", "YA Fantasy", "Dragon Rider Romance"],
     "description": "Kindle-friendly, low-cost romantasy reads for fans of Fourth Wing and Iron Flame. Magic, dragons, diverse characters, and slow-burn fated love stories.",
-    "url": "https://redwheelbarroww.github.io/Dragon-Guard-Academy/"
+    "url": "https://redwheelbarroww.github.io/Dragon-Guard-Academy/",
+    "hasPart": [
+      { "@type": "Book", "name": "Fire & Fury (Dragon Guard Academy Book 1)", "url": "https://a.co/d/5nTmGA7" },
+      { "@type": "Book", "name": "Storm & Steel (Dragon Guard Academy Book 2)", "url": "https://a.co/d/6CXR9nA" },
+      { "@type": "Book", "name": "Shadow & Light (Dragon Guard Academy Book 3)", "url": "https://a.co/d/g0YBdhr" },
+      { "@type": "Book", "name": "Ice & Ember (Dragon Guard Academy Book 4)", "url": "https://a.co/d/fBnJ72o" },
+      { "@type": "Book", "name": "Earth & Sky (Dragon Guard Academy Book 5)", "url": "https://www.amazon.com/gp/product/B0FHC225T5" },
+      { "@type": "Book", "name": "Dragon's Heart (Dragon Guard Academy Book 6)", "url": "https://www.amazon.com/gp/product/B0FHX2DPDQ" },
+      { "@type": "Book", "name": "Flame & Frost (Dragon Guard Academy Book 7)", "url": "https://www.amazon.com/gp/product/B0FJ6Y9QMT" },
+      { "@type": "Book", "name": "Thunder & Stone (Dragon Guard Academy Book 8)", "url": "https://www.amazon.com/gp/product/B0F6Z3TCBD" },
+      { "@type": "Book", "name": "Prism & Shadow (Dragon Guard Academy Book 9)", "url": "https://www.amazon.com/gp/product/B0FLD1XV36" }
+    ]
   }
   </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
@@ -40,6 +53,12 @@
       font-family: 'Cormorant Garamond', serif;
       color: #D4A838;
       font-weight: 600;
+    }
+    h3 span {
+      font-size: 0.9rem;
+      color: #999;
+      display: block;
+      margin-top: 0.25rem;
     }
     a {
       color: #D4A838;
@@ -94,22 +113,6 @@
       border-radius: 6px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     }
-    .book img[src*="FURY"] {
-      border: 1px solid #00ffae;
-      box-shadow: 0 0 16px rgba(0, 255, 174, 0.4), 0 0 8px rgba(0, 255, 174, 0.25);
-    }
-    .book img[src*="1792"] {
-      border: 1px solid #FFD466;
-      box-shadow: 0 0 16px rgba(255, 212, 102, 0.4), 0 0 8px rgba(255, 212, 102, 0.25);
-    }
-    .book img[src*="SHADOW"] {
-      border: 1px solid #668CFF;
-      box-shadow: 0 0 16px rgba(102, 140, 255, 0.4), 0 0 8px rgba(102, 140, 255, 0.25);
-    }
-    .book img[src*="main/ice%20%26%20ember"] {
-      border: 1px solid #FF6B9D;
-      box-shadow: 0 0 16px rgba(255, 107, 157, 0.4), 0 0 8px rgba(255, 107, 157, 0.25);
-    }
     .book {
       margin-bottom: 3rem;
     }
@@ -129,39 +132,52 @@
       color: #D4A838;
     }
 
-/* Latter five covers — border + glow like Books 1–4 */
+    /* Book-specific border & glow (Books 1–4 pre-existing) */
+    .book img[src*="FURY"] {
+      border: 1px solid #00ffae;
+      box-shadow: 0 0 16px rgba(0, 255, 174, 0.4), 0 0 8px rgba(0, 255, 174, 0.25);
+    }
+    .book img[src*="1792"] {
+      border: 1px solid #FFD466;
+      box-shadow: 0 0 16px rgba(255, 212, 102, 0.4), 0 0 8px rgba(255, 212, 102, 0.25);
+    }
+    .book img[src*="SHADOW"] {
+      border: 1px solid #668CFF;
+      box-shadow: 0 0 16px rgba(102, 140, 255, 0.4), 0 0 8px rgba(102, 140, 255, 0.25);
+    }
+    .book img[src*="main/ice%20%26%20ember"] {
+      border: 1px solid #FF6B9D;
+      box-shadow: 0 0 16px rgba(255, 107, 157, 0.4), 0 0 8px rgba(255, 107, 157, 0.25);
+    }
 
-/* Book 5 — Earth & Sky.jpg  (teal) */
-.book img[src*="Earth and Sky"] {
-  border: 1px solid #5CD6C2;
-  box-shadow: 0 0 16px rgba(92, 214, 194, 0.40), 0 0 8px rgba(92, 214, 194, 0.25);
-}
-
-/* Book 6 — Dragon's Heart.jpg  (crimson) */
-.book img[src*="Heart"] {
-  border: 1px solid #FF6B6B;
-  box-shadow: 0 0 16px rgba(255, 107, 107, 0.40), 0 0 8px rgba(255, 107, 107, 0.25);
-}
-
-/* Book 7 — Flame & Frost.jpg  (icy blue) */
-.book img[src*="Flame"] {
-  border: 1px solid #66E0FF;
-  box-shadow: 0 0 16px rgba(102, 224, 255, 0.40), 0 0 8px rgba(102, 224, 255, 0.25);
-}
-
-/* Book 8 — Thunder & Stone.jpg  (periwinkle storm) */
-.book img[src*="Thunder"] {
-  border: 1px solid #A0B2FF;
-  box-shadow: 0 0 16px rgba(160, 178, 255, 0.40), 0 0 8px rgba(160, 178, 255, 0.25);
-}
-
-/* Book 9 — Prism & Shadow.jpg  (prismatic violet) */
-.book img[src*="Prism"] {
-  border: 1px solid #C49CFF;
-  box-shadow: 0 0 16px rgba(196, 156, 255, 0.40), 0 0 8px rgba(196, 156, 255, 0.25);
-}
-
+    /* Latter five covers — border + glow like Books 1–4 */
+    /* Book 5 — Earth & Sky.jpg (teal) */
+    .book img[src*="Earth and Sky"] {
+      border: 1px solid #5CD6C2;
+      box-shadow: 0 0 16px rgba(92, 214, 194, 0.40), 0 0 8px rgba(92, 214, 194, 0.25);
+    }
+    /* Book 6 — Dragon's Heart.jpg (crimson) */
+    .book img[src*="Heart"] {
+      border: 1px solid #FF6B6B;
+      box-shadow: 0 0 16px rgba(255, 107, 107, 0.40), 0 0 8px rgba(255, 107, 107, 0.25);
+    }
+    /* Book 7 — Flame & Frost.jpg (icy blue) */
+    .book img[src*="Flame"] {
+      border: 1px solid #66E0FF;
+      box-shadow: 0 0 16px rgba(102, 224, 255, 0.40), 0 0 8px rgba(102, 224, 255, 0.25);
+    }
+    /* Book 8 — Thunder & Stone.jpg (periwinkle storm) */
+    .book img[src*="Thunder"] {
+      border: 1px solid #A0B2FF;
+      box-shadow: 0 0 16px rgba(160, 178, 255, 0.40), 0 0 8px rgba(160, 178, 255, 0.25);
+    }
+    /* Book 9 — Prism & Shadow.jpg (prismatic violet) */
+    .book img[src*="Prism"] {
+      border: 1px solid #C49CFF;
+      box-shadow: 0 0 16px rgba(196, 156, 255, 0.40), 0 0 8px rgba(196, 156, 255, 0.25);
+    }
   </style>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSNJ1N0CTW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -174,107 +190,115 @@
   <header class="hero">
     <h1>Dragon Guard Academy</h1>
     <p>A romantasy series by R.E. Stormridge</p>
-<nav>
-  <a class="cta-button" href="https://a.co/d/5nTmGA7" target="_blank">Read Book 1</a>
-  <a class="cta-button" href="https://a.co/d/6CXR9nA" target="_blank">Read Book 2</a>
-  <a class="cta-button" href="https://a.co/d/g0YBdhr" target="_blank">Read Book 3</a>
-  <a class="cta-button" href="https://a.co/d/fBnJ72o" target="_blank">Read Book 4</a>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHC225T5" target="_blank">Read Book 5</a>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHX2DPDQ" target="_blank">Read Book 6</a>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FJ6Y9QMT" target="_blank">Read Book 7</a>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0F6Z3TCBD" target="_blank">Read Book 8</a>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FLD1XV36" target="_blank">Read Book 9</a>
-</nav>
-
+    <nav>
+      <a class="cta-button" href="https://a.co/d/5nTmGA7" target="_blank">Read Book 1</a>
+      <a class="cta-button" href="https://a.co/d/6CXR9nA" target="_blank">Read Book 2</a>
+      <a class="cta-button" href="https://a.co/d/g0YBdhr" target="_blank">Read Book 3</a>
+      <a class="cta-button" href="https://a.co/d/fBnJ72o" target="_blank">Read Book 4</a>
+      <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHC225T5" target="_blank">Read Book 5</a>
+      <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHX2DPDQ" target="_blank">Read Book 6</a>
+      <a class="cta-button" href="https://www.amazon.com/gp/product/B0FJ6Y9QMT" target="_blank">Read Book 7</a>
+      <a class="cta-button" href="https://www.amazon.com/gp/product/B0F6Z3TCBD" target="_blank">Read Book 8</a>
+      <a class="cta-button" href="https://www.amazon.com/gp/product/B0FLD1XV36" target="_blank">Read Book 9</a>
+    </nav>
   </header>
 
   <main>
     <section id="books">
       <h2>Books</h2>
 
-      <article class="book">
-        <img src="FIRE & FURY (1).jpg" alt="YA romantasy book cover for Fire & Fury by R.E. Stormridge, featuring a powerful fire dragon and heroine Ember Reese." />
-        <h3>Fire & Fury<br><span>Dragon Guard Academy Book 1</span></h3>
+      <article class="book" id="book1">
+        <img src="FIRE & FURY (1).jpg" loading="lazy" alt="Fire & Fury | Dragon Guard Academy Book 1 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Fire & Fury | Dragon Guard Academy Book 1<br><span>Original Arc</span></h3>
         <p>When Ember Reese is claimed by an ancient fire dragon, she and Commander Kai Thorne must learn to unite fire and ice before darkness destroys the academy—and the realm. Sparks fly, loyalties are tested, and a legend is born.</p>
         <a class="cta-button" href="https://a.co/d/5nTmGA7" target="_blank">Read Now on Amazon</a>
       </article>
 
-      <article class="book">
-        <img src="https://github.com/redwheelbarroww/Dragon-Guard-Academy/blob/e8b6e62d5c7818ca85196bb9cd50822ec77d13a6/1792%20%C3%97%202688%20(9).jpg?raw=true" alt="YA romantasy book cover for Storm & Steel by R.E. Stormridge, featuring a dragon rider and a rebellious prince." />
-        <h3>Storm & Steel<br><span>Dragon Guard Academy Book 2</span></h3>
+      <article class="book" id="book2">
+        <img src="https://github.com/redwheelbarroww/Dragon-Guard-Academy/blob/e8b6e62d5c7818ca85196bb9cd50822ec77d13a6/1792%20%C3%97%202688%20(9).jpg?raw=true" loading="lazy" alt="Storm & Steel | Dragon Guard Academy Book 2 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Storm & Steel | Dragon Guard Academy Book 2<br><span>Original Arc</span></h3>
         <p>Dragon rider Luna is sent to court as a diplomatic student, only to find herself tangled in rebellion, forbidden magic, and a reluctant prince. Storm meets steel, and hearts hang in the balance.</p>
         <a class="cta-button" href="https://a.co/d/6CXR9nA" target="_blank">Read Now on Amazon</a>
       </article>
 
-      <article class="book">
-        <img src="SHADOW & LIGHT (1).jpg" alt="YA romantasy book cover for Shadow & Light by R.E. Stormridge, highlighting magic and prophecy themes." />
-        <h3>Shadow & Light<br><span>Dragon Guard Academy Book 3</span></h3>
+      <article class="book" id="book3">
+        <img src="SHADOW & LIGHT (1).jpg" loading="lazy" alt="Shadow & Light | Dragon Guard Academy Book 3 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Shadow & Light | Dragon Guard Academy Book 3<br><span>Original Arc</span></h3>
         <p>Aria Blackwood holds back the shadows threatening to devour the realm—until a lightborn soldier with a legacy to uphold is sent to protect her. Ancient prophecies, forbidden magic, and fate-bound chemistry collide in this tense, slow-burn romance where light and shadow must join or perish.</p>
         <a class="cta-button" href="https://a.co/d/g0YBdhr" target="_blank">Read Now on Amazon</a>
       </article>
 
-      <article class="book">
-        <img src="https://github.com/redwheelbarroww/Dragon-Guard-Academy/blob/main/ice%20%26%20ember.jpg?raw=true" alt="YA romantasy book cover for Ice & Ember by R.E. Stormridge, showcasing magical integration between fire and ice." />
-        <h3>Ice & Ember<br><span>Dragon Guard Academy Book 4</span></h3>
+      <article class="book" id="book4">
+        <img src="https://github.com/redwheelbarroww/Dragon-Guard-Academy/blob/main/ice%20%26%20ember.jpg?raw=true" loading="lazy" alt="Ice & Ember | Dragon Guard Academy Book 4 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Ice & Ember | Dragon Guard Academy Book 4<br><span>Original Arc</span></h3>
         <p>When brilliant, autistic ice magic user Isla Frost meets reformed troublemaker and genderqueer fire rider Ryder Phoenix, their opposing elements should cancel each other out. Instead, they create magical integration that rewrites the laws of dragon magic—and might just save two dimensional realms.</p>
         <a class="cta-button" href="https://a.co/d/fBnJ72o" target="_blank">Read Now on Amazon</a>
       </article>
 
-<!-- BOOK 5 -->
-<article class="book">
-  <img src="Earth and Sky.jpg" alt="YA romantasy cover: Earth & Sky by R.E. Stormridge, featuring earth and air elements with dragon imagery." />
-  <h3>Earth &amp; Sky<br><span>Dragon Guard Academy Book 5</span></h3>
-  <p>When faith meets fire, and earth calls to sky, some love stories shake the very foundations of the world. Nova Sterling, a pacifist healer chosen by the ancient earth dragon Terra, must reconcile conviction with rising danger. Atlas Stormbringer, a mountain-born veteran with powerful sky magic, battles trauma that keeps him grounded. Together, their opposing elements form an unprecedented partnership as the Dragon King awakens and darkness spreads. Can a pacifist healer and a grounded sky rider fight for love, faith, and the future of dragon magic?</p>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHC225T5" target="_blank">Read Now on Amazon</a>
-</article>
+      <!-- BOOK 5 -->
+      <article class="book" id="book5">
+        <img src="Earth and Sky.jpg" loading="lazy" alt="Earth & Sky | Dragon Guard Academy Book 5 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Earth &amp; Sky | Dragon Guard Academy Book 5<br><span>Original Arc</span></h3>
+        <p>When faith meets fire, and earth calls to sky, some love stories shake the very foundations of the world. Nova Sterling, a pacifist healer chosen by the ancient earth dragon Terra, must reconcile conviction with rising danger. Atlas Stormbringer, a mountain-born veteran with powerful sky magic, battles trauma that keeps him grounded. Together, their opposing elements form an unprecedented partnership as the Dragon King awakens and darkness spreads. Can a pacifist healer and a grounded sky rider fight for love, faith, and the future of dragon magic?</p>
+        <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHC225T5" target="_blank">Read Now on Amazon</a>
+      </article>
 
-<!-- BOOK 6 -->
-<article class="book">
-  <img src="Dragon's Heart.jpg" alt="YA romantasy cover: Dragon's Heart by R.E. Stormridge, star-scaled dragon and commander heroine." />
-  <h3>Dragon's Heart<br><span>Dragon Guard Academy Book 6</span></h3>
-  <p>The epic conclusion to the original Dragon Guard Academy arc. Commander Lyra Stone, 35 and certain she missed destiny, bonds with an ancient star-scaled dragon as the Shadow Wraith Lord makes a final move. With dimensional barriers failing, only the Heart of Dragons ritual—requiring perfect unity across all six elemental dragon types—can save their world. Mature love, Spirit and Void power, and every couple you love unite for a finale of sacrifice, hope, and hard-won HEAs.</p>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHX2DPDQ" target="_blank">Read Now on Amazon</a>
-</article>
+      <!-- BOOK 6 -->
+      <article class="book" id="book6">
+        <img src="Dragon's Heart.jpg" loading="lazy" alt="Dragon's Heart | Dragon Guard Academy Book 6 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Dragon's Heart | Dragon Guard Academy Book 6<br><span>Original Arc</span></h3>
+        <p>The epic conclusion to the original Dragon Guard Academy arc. Commander Lyra Stone, 35 and certain she missed destiny, bonds with an ancient star-scaled dragon as the Shadow Wraith Lord makes a final move. With dimensional barriers failing, only the Heart of Dragons ritual—requiring perfect unity across all six elemental dragon types—can save their world. Mature love, Spirit and Void power, and every couple you love unite for a finale of sacrifice, hope, and hard-won HEAs.</p>
+        <a class="cta-button" href="https://www.amazon.com/gp/product/B0FHX2DPDQ" target="_blank">Read Now on Amazon</a>
+      </article>
 
-<!-- BOOK 7 (Next Generation #1) -->
-<article class="book">
-  <img src="Flame &amp; Frost.jpg" alt="YA romantasy cover: Flame & Frost by R.E. Stormridge, dual fire and ice magic." />
-  <h3>Flame &amp; Frost<br><span>Next Generation · Dragon Guard Academy Book 7</span></h3>
-  <p>When fire and ice collide, some sparks are meant to ignite the world. Scarlett Thorne-Reese inherits impossible dual magic that threatens to tear her apart—until she's partnered with Phoenix Blackwood-Cross, whose Void can erase magic…or stabilize hers. As the Void Collective tests the academy's defenses, their volatile, perfect-fit partnership might be the key to stopping an invasion that could erase magic from existence.</p>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FJ6Y9QMT" target="_blank">Read Now on Amazon</a>
-</article>
+      <!-- BOOK 7 (Next Generation #1) -->
+      <article class="book" id="book7">
+        <img src="Flame &amp; Frost.jpg" loading="lazy" alt="Flame & Frost | Dragon Guard Academy Book 7 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Flame &amp; Frost | Dragon Guard Academy Book 7<br><span>Next Generation</span></h3>
+        <p>When fire and ice collide, some sparks are meant to ignite the world. Scarlett Thorne-Reese inherits impossible dual magic that threatens to tear her apart—until she's partnered with Phoenix Blackwood-Cross, whose Void can erase magic…or stabilize hers. As the Void Collective tests the academy's defenses, their volatile, perfect-fit partnership might be the key to stopping an invasion that could erase magic from existence.</p>
+        <a class="cta-button" href="https://www.amazon.com/gp/product/B0FJ6Y9QMT" target="_blank">Read Now on Amazon</a>
+      </article>
 
-<!-- BOOK 8 (Next Generation #2) -->
-<article class="book">
-  <img src="Thunder &amp; Stone.jpg" alt="YA romantasy cover: Thunder & Stone by R.E. Stormridge, storm princess and mountain guardian." />
-  <h3>Thunder &amp; Stone<br><span>Next Generation · Dragon Guard Academy Book 8</span></h3>
-  <p>When a storm princess meets a mountain guardian, some foundations are meant to be shaken. Princess Tempest Vale-Voss’s geological storm magic (earthquakes + lightning) makes her feel like a weapon; Atlas Sterling-Stormbringer’s atmospheric earth magic calms even the fiercest squalls. As void entities target royal bloodlines and arranged-marriage politics tighten, their storm-and-stone bond must decide between duty and desire—and whether love can steady a world on the brink.</p>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0F6Z3TCBD" target="_blank">Read Now on Amazon</a>
-</article>
+      <!-- BOOK 8 (Next Generation #2) -->
+      <article class="book" id="book8">
+        <img src="Thunder &amp; Stone.jpg" loading="lazy" alt="Thunder & Stone | Dragon Guard Academy Book 8 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Thunder &amp; Stone | Dragon Guard Academy Book 8<br><span>Next Generation</span></h3>
+        <p>When a storm princess meets a mountain guardian, some foundations are meant to be shaken. Princess Tempest Vale-Voss’s geological storm magic (earthquakes + lightning) makes her feel like a weapon; Atlas Sterling-Stormbringer’s atmospheric earth magic calms even the fiercest squalls. As void entities target royal bloodlines and arranged-marriage politics tighten, their storm-and-stone bond must decide between duty and desire—and whether love can steady a world on the brink.</p>
+        <a class="cta-button" href="https://www.amazon.com/gp/product/B0F6Z3TCBD" target="_blank">Read Now on Amazon</a>
+      </article>
 
-<!-- BOOK 9 (Next Generation #3) -->
-<article class="book">
-  <img src="Prism &amp; Shadow.jpg" alt="YA romantasy cover: Prism & Shadow by R.E. Stormridge, light magic heroine and reformed void entity." />
-  <h3>Prism &amp; Shadow<br><span>Next Generation · Dragon Guard Academy Book 9</span></h3>
-  <p>Luna Cross-Vale’s spectral light magic is flawlessly controlled—until transfer student Marcus arrives and her power reaches for him like a missing piece. He’s not human but a reformed void entity, and Luna’s light begins healing the fractures in his consciousness. When his identity is exposed and reality-eating Unnamed entities stir, only an unprecedented alliance between light and void—and a love that chooses through the shadows—can stop extinction.</p>
-  <a class="cta-button" href="https://www.amazon.com/gp/product/B0FLD1XV36" target="_blank">Read Now on Amazon</a>
-</article>
-
+      <!-- BOOK 9 (Next Generation #3) -->
+      <article class="book" id="book9">
+        <img src="Prism &amp; Shadow.jpg" loading="lazy" alt="Prism & Shadow | Dragon Guard Academy Book 9 | YA Dragon Rider Romantasy Cover by R.E. Stormridge" />
+        <h3>Prism &amp; Shadow | Dragon Guard Academy Book 9<br><span>Next Generation</span></h3>
+        <p>Luna Cross-Vale’s spectral light magic is flawlessly controlled—until transfer student Marcus arrives and her power reaches for him like a missing piece. He’s not human but a reformed void entity, and Luna’s light begins healing the fractures in his consciousness. When his identity is exposed and reality-eating Unnamed entities stir, only an unprecedented alliance between light and void—and a love that chooses through the shadows—can stop extinction.</p>
+        <a class="cta-button" href="https://www.amazon.com/gp/product/B0FLD1XV36" target="_blank">Read Now on Amazon</a>
+      </article>
     </section>
 
     <section id="about">
       <h2>About the Series</h2>
       <p><strong>Dragon Guard Academy</strong> is a slow-burn romantasy series filled with dragon riders, elemental magic, fated mates, and high-stakes battles between love, loyalty, and legacy. If you loved <em>Fourth Wing</em> and <em>Iron Flame</em>, you'll feel right at home in these pages.</p>
+      <p>Read the series in order:
+        <a href="#book1">Fire &amp; Fury</a>,
+        <a href="#book2">Storm &amp; Steel</a>,
+        <a href="#book3">Shadow &amp; Light</a>,
+        <a href="#book4">Ice &amp; Ember</a>,
+        <a href="#book5">Earth &amp; Sky</a>,
+        <a href="#book6">Dragon’s Heart</a>,
+        <a href="#book7">Flame &amp; Frost</a>,
+        <a href="#book8">Thunder &amp; Stone</a>,
+        <a href="#book9">Prism &amp; Shadow</a>.
+      </p>
     </section>
 
-<footer>
-  <p>&copy; 2025 R.E. Stormridge. All rights reserved.</p>
-  <div class="socials">
-    <a href="https://www.tiktok.com/@dragonguardbooks" target="_blank">TikTok</a>
-    <a href="#">Contact</a>
-  </div>
-</footer>
-
+    <footer>
+      <p>&copy; 2025 R.E. Stormridge. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://www.tiktok.com/@dragonguardbooks" target="_blank">Follow Dragon Guard Books on TikTok</a>
+        <a href="#">Contact</a>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
